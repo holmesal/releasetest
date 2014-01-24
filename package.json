@@ -1,0 +1,17 @@
+{
+  "name": "supervisor-example",
+  "version": "0.0.1",
+  "description": "Example for the supervisor script",
+  "scripts": {
+    "start": "node supervisor"
+  },
+  "dependencies": {
+    "debug": "~0.7.4",
+    "request": "~2.33.0",
+    "winston": "~0.7.2",
+    "mkdirp": "~0.3.5",
+    "unzip": "~0.1.9",
+    "rimraf": "~2.2.6",
+    "semver": "~2.2.1"
+  }
+}
